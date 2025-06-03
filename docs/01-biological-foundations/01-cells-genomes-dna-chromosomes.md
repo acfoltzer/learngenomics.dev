@@ -68,7 +68,7 @@ during the course of this guide.
 Conceptually, you can think of DNA laid end-to-end as a ~3 billion character long string
 consisting only of 'A's, 'C's, 'T's and 'G's. This string and any substring contained
 within are commonly referred to as genomic **sequences**. These characters represent the
-physical Adenine, Guanine, Thymine, and Cytosine **bases** (or **nucleotides**)
+physical Adenine, Cytosine, Thymine, and Guanine **bases** (or **nucleotides**)
 respectively.
 
 Importantly, though it's easy to conceptualize DNA as a single, very long
