@@ -15,6 +15,8 @@ though an exact threshold is not universally agreed upon). By contrast, SNVs
 that are not considered SNPs can be very rare and may cause cancer or other
 diseases.
 
+TODO ACF 2025-06-03: image shows more than one substitution between the sequences
+
 ![An example single nucleotide variation where an 'A' is substituted in for a 'C'](../images/2.1-SNV.jpg)
 
 In cancer genomics, SNPs are less interesting to researchers than SNVs due to

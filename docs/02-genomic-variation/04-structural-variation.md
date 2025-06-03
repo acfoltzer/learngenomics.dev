@@ -15,6 +15,10 @@ indels by their large size, although there is no standard accepted threshold.
 While SVs are detected computationally, some SVs are large enough to be seen in
 an ordinary microscope.
 
+TODO ACF 2025-06-03: the following paragraph needs work. `pull`, `read`, `map`
+are used in jargony ways that haven't yet been defined, there are some grammar
+issues, and the concepts are described too briefly for a novice.
+
 After an SV event the original genomic sequence is interrupted by another out
 of place sequence, creating a **breakpoint**. Detecting breakpoints in SVs
 requires specialized computational methods. One strategy is to pull all of the
@@ -63,8 +67,8 @@ and can ultimately be a driver for cancer.
 Detecting fusions like BCR-ABL1 is an important part of cancer diagnosis and
 influences the choice of treatments a patient receives. Like breakpoint
 discovery, many fusion detection methods rely on finding split reads and
-discordant read pairs that map to two genes called **spanning reads**. These
+discordant read pairs (TODO ACF 2025-06-03: define these terms) that map to two genes called **spanning reads**. These
 reads are rare in genomic sequences, so fusions are generally detected using
-RNA-seq. Fusion detection methods may also enhance their sensitivity by testing
+RNA-seq (TODO ACF 2025-06-03: we don't know what RNA-seq is yet, and it's unclear whether it's mentioned as an alternative to looking in genomic sequences or as a way to more effectively find rare features in sequences). Fusion detection methods may also enhance their sensitivity by testing
 for known fusion sequences or by testing against a database of potential fusions
 based on known exons.

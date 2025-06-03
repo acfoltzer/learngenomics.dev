@@ -12,12 +12,11 @@ that is more accurately represented as a graph that is constantly evolving?
 ## Reference Genome
 
 At least for the moment, the answer is "we don't". The current solution chooses
-practicality over the ideal state of things: there is, in fact, a single model
-known as the **reference genome** that attempts to recapitulate a consensus
-representation for the human genome. This consensus model is curated by the
-[Genome Reference Consortium (GRC)], and **patches** to the genome are released
-on a regular basis to further improve the model as we learn more about the human
-genome.
+practicality over perfection: a single model known as the **reference genome**
+serves as a consensus representation of the human genome. The reference genome
+is curated by the [Genome Reference Consortium (GRC)], and **patches** to the
+genome are released on a regular basis to further improve the model as we learn
+more about the human genome.
 
 Genomes for multiple species are maintained by the GRC, and you can view them on
 the [GRC's website](https://www.ncbi.nlm.nih.gov/grc/data). In the past, the
@@ -60,7 +59,9 @@ Consortium's website.
 
 ## The Analysis of Tumors vs. Germline Mutations
 
-Having a matched pair of tumor and germline data is especially valuable in
+TODO ACF 2025-06-03: feels like a non-sequitur
+
+Having a matched pair of tumor and germline (TODO ACF 2025-06-03: not yet defined) data is especially valuable in
 variant detection because germline data acts as a precise control. The analyst
 uses the pairing to sort out common but irrelevant single nucleotide variations
 (SNVs) found in the normal germline tissue from the new cancer driving mutations
