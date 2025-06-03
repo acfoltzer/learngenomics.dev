@@ -101,7 +101,7 @@ largest to smallest. The full set of chromosomes makes up the genome.
 The genome is a vast search space for biological questions. Each genome is a biochemical
 database that, if properly accessed, can inform how our bodies function. Genomes account
 for the natural differences between individuals, define family traits, and distinguish
-how cells in tissues and organs vary. When genomes acquire adverse mutation(s), cancer
+how cells in tissues and organs vary. When genomes acquire adverse mutations, cancer
 as well as other genetic diseases can occur. By examining the relationship between
 physical traits (e.g. blood pressure or the development of a tumor) and the genome,
 known as **genotype-phenotype relationships**, clinicians can develop personalized

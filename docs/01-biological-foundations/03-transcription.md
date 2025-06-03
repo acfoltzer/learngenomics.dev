@@ -35,7 +35,7 @@ learn more about alternative splicing in
 [the relevant advanced topics guide](../06-advanced-topics/alternative-splicing.md)).
 
 Variations in the exonic regions of the genome can significantly change which parts are
-used to assemble a protein, thereby, changing its function in a cell, like changing
+used to assemble a protein, thereby changing its function in a cell like changing
 sugar to salt in a recipe. Variations in non-coding regions outside exonic sequencing
 are still important (examples of important non-coding genomic sequences
 include [transcription factor binding
