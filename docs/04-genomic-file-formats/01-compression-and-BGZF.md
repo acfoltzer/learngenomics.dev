@@ -38,6 +38,10 @@ pervasive in the field of computational genomics.
 
 ### Worked Example
 
+TODO ACF 2025-06-04:
+- we might want to break up these bash code blocks so the copy buttons can work properly if someone is trying to follow along.
+- point folks toward installing `tabix` tools
+
 1. First, we'll start by downloading the GENCODE gene model v32. We'll remove
    the header line and then sort by chromosome name then genomic start location
    (numerically), as that is what `bgzip` expects.
@@ -45,10 +49,10 @@ pervasive in the field of computational genomics.
    ```bash
    GENCODE_GTF="ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.chr_patch_hapl_scaff.annotation.gtf.gz"
 
-   curl "$GENCODE_GTF" \                        # Download GTF
-     | gunzip \                                 # Decompress
-     | grep -v "^#" \                           # Remove header lines
-     | sort -k1,1 -k4,4n > gencode.v32.all.gtf  # Sort by chromosome name then genomic start location (numerically)
+   curl "$GENCODE_GTF"                         `# Download GTF` \
+     | gunzip                                  `# Decompress` \
+     | grep -v "^#"                            `# Remove header lines` \
+     | sort -k1,1 -k4,4n > gencode.v32.all.gtf `# Sort by chromosome name then genomic start location (numerically)`
    ```
 
 2. Next, we'll compress the file using both `gzip` and `bgzip`. To keep things

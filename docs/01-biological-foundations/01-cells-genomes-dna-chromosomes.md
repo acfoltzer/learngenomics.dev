@@ -3,6 +3,16 @@ title: Cells, Chromosomes, and Genomes
 track: Biological Foundations
 ---
 
+TODO ACF 2025-06-04: thoughts on the overall project, stuffed here because it's at the beginning:
+
+1. Is this meant to be read through in a particular order, or more of a
+   random-access reference? Different pieces feel like they're pulled in
+   opposite directions on this question.
+2. A glossary would be quite helpful; a quick search suggests [this
+   plugin](https://github.com/grnet/docusaurus-terminology) might be suitable.
+    - Depending on the answer to question 1, a pass to ensure terms are
+      introduced before they're used could improve sequential readability.
+
 ## Introduction
 
 :::info Disclaimer

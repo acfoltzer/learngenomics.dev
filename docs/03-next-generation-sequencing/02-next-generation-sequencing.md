@@ -65,4 +65,4 @@ is called a "read pair" as denoted in the figure below.
 
 ![Figure showing a read on a Flowcell zoomed in.](../images/3.2-Read-on-Flowcell-Zoomed.jpg)
 
-After the steps above have completed, the result is a single FASTQ file (single-end sequencing) or a pair of FASTQ files (paired-end). For more information on the FASTQ file format, see its section in the "Genomic File Formats" chapter.
+After the steps above have completed, the result is a single FASTQ file (single-end sequencing) or a pair of FASTQ files (paired-end). For more information on the FASTQ file format, see [its section in the Genomic File Formats chapter](../04-genomic-file-formats/02-FASTQ-files.md).

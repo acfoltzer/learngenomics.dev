@@ -12,15 +12,15 @@ proverbial "picture on the front of the box" is called the **reference genome**.
 You can learn more about the reference genome [here](/docs/02-genomic-variation/01-baselines-for-variation.md).
 
 Before starting your analysis, you'll need to decide on which reference genome
-you will use as the baseline for your project. Once a reference genome is
-decided, the next step is to choose a mapping software (frequently referred to
-as a mapper or aligner) to align the reads to that reference genome. The mapping
-software generates a special data structure from a reference genome and then
-goes through each read pair in the FASTQ files to see if and where they fit in
-the reference genome. 
+you will use as the baseline for your project. The next step is to choose a
+mapping software (frequently referred to as a mapper or aligner) to align the
+reads to that reference genome. The mapping software generates a special data
+structure from a reference genome and then goes through each read pair in the
+[FASTQ files](../04-genomic-file-formats/02-FASTQ-files.md) to see if and where
+they fit in the reference genome.
 
 At the time of writing, the most popular aligner for each type of data
-is [BWA](https://github.com/lh3/bwa) for DNA sequencing
+is [BWA](https://github.com/lh3/bwa) for DNA sequencing (TODO ACF 2025-06-04: update to minimap2?)
 and [STAR](https://github.com/alexdobin/STAR) for RNA sequencing. Each program
 provides many parameters that can be tweaked depending on the characteristics of
 the data to achieve the "best" alignment. Once the alignment program has
